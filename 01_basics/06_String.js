@@ -15,5 +15,25 @@ const gameName = new String('Rohan_Palase');
 // console.log(gameName.length);
 // console.log(gameName.toLowerCase());
 
-console.log(gameName.charAt(4));
+console.log(gameName.charAt(1));
 console.log(gameName.indexOf('a'));
+
+// const str22= gameName.substring(4,6);
+// console.log(str22);
+
+// const str24= gameName.slice(-11,6);
+// console.log(str24);
+
+// const str23= gameName.includes("Ritik");
+// console.log(str23);
+
+const newstring= "     Ritik      ";
+console.log(newstring.trim());
+//console.log(newstring.trimStart());
+//console.log(newstring.trimEnd());
+
+const URL="https://rohan.in/rohan%25palase";
+
+console.log(URL.replace('%25','-'));
+
+console.log(gameName.split('_'));
