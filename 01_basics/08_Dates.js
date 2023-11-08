@@ -1,6 +1,7 @@
 //   dates
 
 let mydate = new Date();
+console.log(typeof (mydate)); // output -> object
 console.log(mydate.toString()); // output -> Wed Nov 08 2023 11:55:26 GMT+0000 (Coordinated Universal Time)
 
 console.log(mydate.toDateString()); //output -> wed Nov 08 2023
