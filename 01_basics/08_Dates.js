@@ -1,6 +1,7 @@
-//   dates
+//   Dates
 
 let mydate = new Date();
+/*
 console.log(typeof (mydate)); // output -> object
 console.log(mydate.toString()); // output -> Wed Nov 08 2023 11:55:26 GMT+0000 (Coordinated Universal Time)
 
@@ -12,3 +13,17 @@ console.log(mydate.toISOString());//output -> 2023-11-08T11:43:45.856Z and for i
 
 console.log(mydate.toLocaleString());  // output -> 11/08/23, 11:52:20 AM
 console.log(mydate.toLocaleDateString()); // output -> 11/08/23
+
+*/
+
+let mynewdate1 = new Date(2023,5,28)
+console.log(mynewdate1.toDateString());
+
+let myotherdate = new Date(2023,5,28,0,0)
+console.log(myotherdate.toLocaleString());
+
+let myodate = new Date("2023-02-14")
+console.log(myodate.toLocaleString());
+
+let myfdate = new Date("02-14-2901")
+console.log(myfdate.toLocaleString());
