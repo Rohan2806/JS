@@ -17,13 +17,28 @@ console.log(mydate.toLocaleDateString()); // output -> 11/08/23
 */
 
 let mynewdate1 = new Date(2023,5,28)
-console.log(mynewdate1.toDateString());
+// console.log(mynewdate1.toDateString());
 
 let myotherdate = new Date(2023,5,28,0,0)
-console.log(myotherdate.toLocaleString());
+// console.log(myotherdate.toLocaleString());
 
 let myodate = new Date("2023-02-14")
-console.log(myodate.toLocaleString());
+// console.log(myodate.toLocaleString());
 
 let myfdate = new Date("02-14-2901")
-console.log(myfdate.toLocaleString());
+// console.log(myfdate.toLocaleString());
+
+let Timestamp1 = Date.now()
+// console.log(Timestamp1);
+// console.log(myodate.getTime());
+// console.log((Date.now()/1000));
+// console.log(Math.floor(Date.now()/1000));
+let newdate = new Date()
+// console.log(newdate);
+// console.log(newdate.getDate());
+// console.log(newdate.getMonth());
+
+newdate.toLocaleString('default',{
+    weekday : "long"
+    
+})
